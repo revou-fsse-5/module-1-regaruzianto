@@ -1,0 +1,45 @@
+ 
+body{
+   margin: 0px;
+   font-family: "Kanit", sans-serif;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    width: 100%;
+    height: 48px;
+    top: 0;
+    background-color: white;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, .16), 0 1px 2px rgba(0, 0, 0, .23);
+
+}
+.web-name h1{
+    float: right;
+    margin: 4px;
+    margin-top: 0px;
+    color: #3cb0d7;
+}
+.svg-cat{
+    
+    margin: 4px;
+    margin-left: 48px;
+
+}
+nav{
+    margin-right: 48px;
+    align-content: center;
+    
+}
+nav a{
+    color: black;
+    text-decoration-line: none;
+    margin-inline: 8px;
+    font-weight: 600;
+}
+.Home{
+    margin-top: 48px;
+    margin-inline: 48px;
+    background-image: ;
+}
