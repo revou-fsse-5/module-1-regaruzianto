@@ -41,5 +41,6 @@ nav a{
 .Home{
     margin-top: 48px;
     margin-inline: 48px;
-    background-image: ;
+    background-image: url(/Assets/img.jpg);
+    background-size: 75% 50%;
 }

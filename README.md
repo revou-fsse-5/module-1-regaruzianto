@@ -1,7 +1,10 @@
 edit to pull
 # About Author
 
-Hello! My name is Rega, and I am currently a student at RevoU, where I am diving deep into the world of fullstack development. 
+Hello! My name is Rega, and I am currently a student at RevoU, where I am diving deep into the world of fullstack development.😁😁😁 
+
+![polite cat](/Assets/images.jpg)
+
 
 ## My Fullstack Software Engineer Journey
 
@@ -21,4 +24,4 @@ The journey of becoming a fullstack engineer is challenging but incredibly rewar
 
 ---
 
-Thank you for following my journey. Feel free to connect with me on [LinkedIn](your-linkedin-url) and [GitHub](your-github-url) to see my latest projects and updates.
+Thank you for following my journey. Feel free to connect with me on [GitHub](https://github.com/regaruzianto) to see my latest projects and updates.
