@@ -125,14 +125,13 @@ main{
 }
 .card-mini {
     display: flex;
-    justify-content: space-evenly;
     align-items: center;
     margin: 8px;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     width: 40%;
     border-radius: 5px;
     padding: 4px;
-    
+    box-sizing: border-box;
 }
 .img-static {
     border: 2px solid var(--white);
@@ -151,7 +150,7 @@ main{
     margin: 4px;
 }
 .title{
-    
+    padding-left:8px;
 }
 
 .container {
