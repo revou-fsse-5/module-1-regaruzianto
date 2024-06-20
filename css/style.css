@@ -2,6 +2,7 @@
 body{
    width: fit-content;
    margin: 0px;
+   padding: 0px;
    font-family: "Kanit", sans-serif;
 }
 
@@ -18,6 +19,7 @@ header{
 }
 p {
     color: #707070;
+    font-size: 21px;
 }
 
 .web-name h1{
@@ -67,6 +69,7 @@ nav a{
 
 main{
     margin-left: 48px;
+    margin-right: 48px;
 }
 
 .category-title {
@@ -115,6 +118,7 @@ main{
     display: flex; 
     flex-wrap: wrap;
     justify-content: space-evenly;
+    gap: 18px;
 }
 .card-board{
     box-shadow: rgba(0, 0, 0, 0.2) 0px 4px 8px 0px;
@@ -196,4 +200,30 @@ main{
 }
 .input-width {
     width: 70%;
+}
+
+/* mobile */
+@media screen and (max-width:600px)  {
+
+    .card-book-container{
+        display: flex;
+        flex-direction: column;
+    }
+    .card-book {
+        width: 100%;
+    }
+    .board{
+        width: 90%;
+    }
+    .card-board{
+        width: 100%;
+    }
+    .card-profile{width: 80%;}
+    .container{
+        display: flex;
+        flex-direction: column;
+    }
+    .Author-info{
+        width: 100%;
+    }
 }
