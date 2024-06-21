@@ -17,7 +17,9 @@ header{
     top: 0;
     background-color: white;
     box-shadow: 0 3px 6px rgba(0, 0, 0, .16), 0 1px 2px rgba(0, 0, 0, .23);
-
+    animation-name: animasi;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
 }
 .hamburger-button{
     display: none;
@@ -305,6 +307,12 @@ form >button {
     right: 45px;
     font-size: 60px;
 }
+
+/* Animation */
+@keyframes animasi {
+    from {box-shadow: 0 3px 6px rgba(0, 0, 0, .16), 0 1px 2px rgba(0, 0, 0, .23);}
+    to {box-shadow: 0 3px 6px rgb(6 255 195 / 16%), 0 1px 2px rgb(3 223 235 / 23%);}
+  }
 
 /* mobile */
 @media screen and (max-width:600px)  {
