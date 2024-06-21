@@ -1,4 +1,4 @@
-edit to pull
+(https://revou-fsse-5.github.io/module-1-regaruzianto/)
 # About Author
 
 Hello! My name is Rega, and I am currently a student at RevoU, where I am diving deep into the world of fullstack development.😁😁😁 
