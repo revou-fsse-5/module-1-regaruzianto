@@ -29,15 +29,27 @@
         </div>
         
        <nav>
-            <a href="#">Home</a>
+            <a href="#home">Home</a>
             <a href="#About Us">About Us</a>
-            <a href="#">Contact</a> 
-        </nav> 
+            <a href="#div3">Contact</a> 
+        </nav>
+        <div class="hamburger-button">
+           <span onclick="openNav()">
+                <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="30" height="30" viewBox="0,0,256,256"style="fill:#000000;"><g fill="#3cb0d7" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><g transform="scale(5.12,5.12)"><path d="M5,8c-0.72127,-0.0102 -1.39216,0.36875 -1.75578,0.99175c-0.36361,0.623 -0.36361,1.39351 0,2.01651c0.36361,0.623 1.0345,1.00195 1.75578,0.99175h40c0.72127,0.0102 1.39216,-0.36875 1.75578,-0.99175c0.36361,-0.623 0.36361,-1.39351 0,-2.01651c-0.36361,-0.623 -1.0345,-1.00195 -1.75578,-0.99175zM5,23c-0.72127,-0.0102 -1.39216,0.36875 -1.75578,0.99175c-0.36361,0.623 -0.36361,1.39351 0,2.01651c0.36361,0.623 1.0345,1.00195 1.75578,0.99175h40c0.72127,0.0102 1.39216,-0.36875 1.75578,-0.99175c0.36361,-0.623 0.36361,-1.39351 0,-2.01651c-0.36361,-0.623 -1.0345,-1.00195 -1.75578,-0.99175zM5,38c-0.72127,-0.0102 -1.39216,0.36875 -1.75578,0.99175c-0.36361,0.623 -0.36361,1.39351 0,2.01651c0.36361,0.623 1.0345,1.00195 1.75578,0.99175h40c0.72127,0.0102 1.39216,-0.36875 1.75578,-0.99175c0.36361,-0.623 0.36361,-1.39351 0,-2.01651c-0.36361,-0.623 -1.0345,-1.00195 -1.75578,-0.99175z"></path></g></g></svg>
+           </span>
+        </div> 
       
     </header>
-    
+    <div id="Overlay-Nav" class="overlay">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <div class="overlay-content">
+          <a href="#home" onclick="closeNav()">Home</a>
+          <a href="#About Us" onclick="closeNav()">About Us</a>
+          <a href="#div3" onclick="closeNav()">Contact</a>
+        </div>
+    </div>
  
-    <section class="Home" style="background-image: url(Assets/img.jpg);" >
+    <section class="Home" id="home" style="background-image: url(Assets/img.jpg);" >
     
         <h1>Journey to Fullstack Mastery</h1>
         <p>A Study Journal as a REVOU Student. Turning dreams into reality with every line of code. Code Diary</p>
@@ -170,7 +182,15 @@
 
     </footer>
 
-   
+    <script>
+        function openNav() {
+          document.getElementById("Overlay-Nav").style.display = "block";
+        }
+        
+        function closeNav() {
+          document.getElementById("Overlay-Nav").style.display = "none";
+        }
+    </script>
 
    
 
